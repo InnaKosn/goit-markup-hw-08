@@ -1,0 +1,54 @@
+.footer {
+    background: #2f303a;
+    padding: 60px 0;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.adresa {
+    width: 231px;
+}
+
+.logotyp-footer {
+    margin-left: 0;
+    width: 145px;
+    font-family: var(--secondary-font);
+    font-size: 26px;
+    color: var(--accent-color);
+}
+
+.address {
+    font-style: normal;
+    margin-top: 20px;
+}
+
+.foot-elem:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+.studi {
+    font-family: var(--secondary-font);
+    font-size: 26px;
+    color: var(--alternativ-color);
+}
+
+.foot-map {
+    line-height: 1.5;
+    color: var(--alternativ-color);
+}
+
+.foot-link {
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.6);
+
+    transition: color var(--transition-dur-and-func);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}

@@ -1,0 +1,77 @@
+.section-title {
+    margin-bottom: 50px;
+    text-align: center;
+
+    font-size: 36px;
+    line-height: 1.17;
+    color: var(--secondary-color);
+}
+
+.team {
+    background: #f5f4fa;
+}
+
+.team-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.team-pro {
+    width: 270px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.team-name {
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--secondary-color);
+}
+
+.team-prof {
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.network-list {
+    display: flex;
+    column-gap: 10px;
+    justify-content: center;
+}
+
+.network-list-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+
+    transition: background-color var(--transition-dur-and-func);
+
+    border-radius: 50%;
+
+
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
+  &:hover .network-list-icon,
+  &:focus .network-list-icon {
+    fill: var(--alternativ-color);
+  }
+}
+
+.network-list-icon {
+    fill: #afb1b8;
+    transition: fill var(--transition-dur-and-func);
+}
+
+.team-elem {
+    background: #ffffff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}

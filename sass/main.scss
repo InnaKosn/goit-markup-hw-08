@@ -1,0 +1,24 @@
+@import './utils/variables';
+@import './utils/visually-hidden';
+
+@import './base/common';
+@import './base/reset';
+
+@import './components/container';
+@import './components/modal-btn';
+@import './components/modal-form';
+@import './components/menu';
+@import './components/menu-mobile-format';
+@import './components/join';
+@import './components/subs';
+@import './components/section';
+
+@import './layout/header';
+@import './layout/hero';
+@import './layout/present';
+@import './layout/worky';
+@import './layout/team';
+@import './layout/group';
+@import './layout/footer';
+@import './layout/galera';
+@import './layout/filtr';

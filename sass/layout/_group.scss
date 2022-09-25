@@ -1,0 +1,31 @@
+.group-list {
+    display: flex;
+    column-gap: 30px;
+    justify-content: center;
+}
+
+.group-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+
+    transition: border-color var(--transition-dur-and-func);
+
+  &:hover,
+  &:focus {
+    border-color: var(--accent-color);
+  }
+
+  &:hover .group-icon,
+  &:focus .group-icon {
+    fill: var(--accent-color);
+  }
+}
+.group-icon {
+  fill: #afb1b8;
+  transition: fill var(--transition-dur-and-func);
+}
