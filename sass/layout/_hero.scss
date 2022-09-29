@@ -88,6 +88,11 @@
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
+@media screen and (max-width:479px) {
+  .hero__title {
+  font-weight: 400;
+  }
+}
 
 //.hero {
 //   text-align: center;

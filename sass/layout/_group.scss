@@ -5,14 +5,17 @@
 
 .section-group-title{
   margin-bottom:30px ;
-  align-items: center;
-  justify-content: center;
+  text-align: center;
+  font-size: 28px;
+    line-height: 1.17;
+    color: var(--secondary-color);
 }
 
 .group-list {
     display: flex;
-    width: calc((100% - 30px) / 2);
-      //justify-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
 }
 
 .group-link {

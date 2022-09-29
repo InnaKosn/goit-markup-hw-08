@@ -79,8 +79,8 @@ span {
 @media screen and (min-width: 480px) {
   .container {
     width: 480px;
-    margin-left: auto;
     margin-right: auto;
+    margin-left: auto;
   }
 }
 @media screen and (min-width: 768px) {
@@ -494,10 +494,6 @@ span {
   color: #ffffff;
 }
 
-.subs-emale {
-  margin-left: 93px;
-}
-
 .subs {
   width: 570px;
   display: flex;
@@ -637,6 +633,11 @@ span {
   text-transform: uppercase;
 }
 
+@media screen and (max-width: 479px) {
+  .hero__title {
+    font-weight: 400;
+  }
+}
 .examples__elem:not(:last-child) {
   margin-bottom: 30px;
 }
@@ -781,13 +782,17 @@ span {
 
 .section-group-title {
   margin-bottom: 30px;
-  align-items: center;
-  justify-content: center;
+  text-align: center;
+  font-size: 28px;
+  line-height: 1.17;
+  color: var(--secondary-color);
 }
 
 .group-list {
   display: flex;
-  width: calc((100% - 30px) / 2);
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
 }
 
 .group-link {
@@ -817,14 +822,12 @@ span {
   padding: 60px 0;
 }
 
-.foot {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
+.adresa {
+  text-align: center;
 }
 
-.adresa {
-  width: 231px;
+.join {
+  text-align: center;
 }
 
 .logotyp-footer {
