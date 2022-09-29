@@ -1,14 +1,26 @@
+.group-container{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.section-group-title{
+  margin-bottom:30px ;
+  align-items: center;
+  justify-content: center;
+}
+
 .group-list {
     display: flex;
-    column-gap: 30px;
-    justify-content: center;
+    width: calc((100% - 30px) / 2);
+      //justify-content: center;
 }
 
 .group-link {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 170px;
+    width: 210px;
+    //width: 170px;
     height: 92px;
     border: 1px solid #afb1b8;
     border-radius: 4px;

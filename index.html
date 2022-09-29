@@ -87,12 +87,12 @@
             </li>
           </ul>
           <ul class="mobile-contact list">
-            <li class="mobile-contact__item">
+            <li class="mobile-contact__tel-item">
               <a class="mobile-contact__tel-link link" href="tel:+380961111111"
                 >+38 096 111 11 11</a
               >
             </li>
-            <li class="mobile-contact__item">
+            <li class="mobile-contact__mail-item">
               <a
                 class="mobile-contact__mail-link link"
                 href="mailto:info@devstudio.com"
@@ -121,16 +121,16 @@
     </header>
     <main>
       <!--ГЕРОЯМ СЛАВА-->
-      <!--<section class="section hero">
+      <section class="section hero">
         <div class="container hero-container">
           <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
           <button type="button" class="hero-modal-btn" data-modal-open>
             Замовити послугу
           </button>
         </div>
-      </section>-->
+      </section>
       <!--секция себя презентовать-->
-      <!--<section class="section present">
+      <section class="section present">
         <div class="container present-container">
           <ul class="examples list">
             <li class="examples__elem">
@@ -182,7 +182,7 @@
             </li>
           </ul>
         </div>
-      </section>-->
+      </section>
       <!--секция работаем работу  -->
       <!--<section class="section worky">
         <div class="container worky-container">
@@ -225,17 +225,63 @@
         </div>
       </section>-->
       <!--кто в команде-->
-      <!--<section class="section team">
+      <section class="section team">
         <div class="container team-container">
-          <h2 class="section-title">Наша команда</h2>
+          <h2 class="section-team-title">Наша команда</h2>
           <ul class="team-list list">
             <li class="team-elem">
-              <img
-                class="team-foto"
-                src="images/img-foto-1.jpg"
-                alt="Product Designer"
-                width="270"
-              />
+              <picture>
+                <source
+                  srcset="
+                    images/team/desktop/team-1-desktop.webp    1x,
+                    images/team/desktop/team-1-desktop@2x.webp 2x
+                  "
+                  media="(min-width:1200px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    images/team/desktop/team-1-desktop.jpg    1x,
+                    images/team/desktop/team-1-desktop@2x.jpg 2x
+                  "
+                  media="(min-width:1200px)"
+                />
+                <source
+                  srcset="
+                    images/team/tablet/team-1-tablet.webp    1x,
+                    images/team/tablet/team-1-tablet@2x.webp 2x
+                  "
+                  media="(min-width:768px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    images/team/tablet/team-1-tablet.jpg    1x,
+                    images/team/tablet/team-1-tablet@2x.jpg 2x
+                  "
+                  media="(min-width:768px)"
+                />
+                <source
+                  srcset="
+                    images/team/mobile/team-1-mobile.webp    1x,
+                    images/team/mobile/team-1-mobile@2x.webp 2x
+                  "
+                  media="(max-width:767px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    images/team/mobile/team-1-mobile.jpg    1x,
+                    images/team/mobile/team-1-mobile@2x.jpg 2x
+                  "
+                  media="(max-width:767px)"
+                />
+                <img
+                  class="team-foto"
+                  src="images/team/mobile/team-1-mobile.jpg"
+                  alt="Product Designer"
+                />
+              </picture>
               <div class="container team-pro">
                 <h3 class="team-name">Ігор Дем'яненко</h3>
                 <p class="team-prof">Product Designer</p>
@@ -292,12 +338,59 @@
               </div>
             </li>
             <li class="team-elem">
-              <img
-                class="team-foto"
-                src="images/img-foto-2.jpg"
-                alt="Frontend Developer"
-                width="270"
-              />
+              <picture>
+                <source
+                  srcset="
+                    images/team/desktop/team-2-desktop.webp    1x,
+                    images/team/desktop/team-2-desktop@2x.webp 2x
+                  "
+                  media="(min-width:1200px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    images/team/desktop/team-2-desktop.jpg    1x,
+                    images/team/desktop/team-2-desktop@2x.jpg 2x
+                  "
+                  media="(min-width:1200px)"
+                />
+                <source
+                  srcset="
+                    images/team/tablet/team-2-tablet.webp    1x,
+                    images/team/tablet/team-2-tablet@2x.webp 2x
+                  "
+                  media="(min-width:768px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    images/team/tablet/team-2-tablet.jpg    1x,
+                    images/team/tablet/team-2-tablet@2x.jpg 2x
+                  "
+                  media="(min-width:768px)"
+                />
+                <source
+                  srcset="
+                    images/team/mobile/team-2-mobile.webp    1x,
+                    images/team/mobile/team-2-mobile@2x.webp 2x
+                  "
+                  media="(max-width:767px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    images/team/mobile/team-2-mobile.jpg    1x,
+                    images/team/mobile/team-2-mobile@2x.jpg 2x
+                  "
+                  media="(max-width:767px)"
+                />
+                <img
+                  class="team-foto"
+                  src="images/team/mobile/team-2-mobile.jpg"
+                  alt="Frontend Developer"
+                />
+              </picture>
+
               <div class="container team-pro">
                 <h3 class="team-name">Ольга Рєпіна</h3>
                 <p class="team-prof">Frontend Developer</p>
@@ -354,12 +447,58 @@
               </div>
             </li>
             <li class="team-elem">
-              <img
-                class="team-foto"
-                src="images/img-foto-3.jpg"
-                alt="Marketing"
-                width="270"
-              />
+              <picture>
+                <source
+                  srcset="
+                    images/team/desktop/team-3-desktop.webp    1x,
+                    images/team/desktop/team-3-desktop@2x.webp 2x
+                  "
+                  media="(min-width:1200px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    images/team/desktop/team-3-desktop.jpg    1x,
+                    images/team/desktop/team-3-desktop@2x.jpg 2x
+                  "
+                  media="(min-width:1200px)"
+                />
+                <source
+                  srcset="
+                    images/team/tablet/team-3-tablet.webp    1x,
+                    images/team/tablet/team-3-tablet@2x.webp 2x
+                  "
+                  media="(min-width:768px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    images/team/tablet/team-3-tablet.jpg    1x,
+                    images/team/tablet/team-3-tablet@2x.jpg 2x
+                  "
+                  media="(min-width:768px)"
+                />
+                <source
+                  srcset="
+                    images/team/mobile/team-3-mobile.webp    1x,
+                    images/team/mobile/team-3-mobile@2x.webp 2x
+                  "
+                  media="(max-width:767px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    images/team/mobile/team-3-mobile.jpg    1x,
+                    images/team/mobile/team-3-mobile@2x.jpg 2x
+                  "
+                  media="(max-width:767px)"
+                />
+                <img
+                  class="team-foto"
+                  src="images/team/mobile/team-3-mobile.jpg"
+                  alt="Marketing"
+                />
+              </picture>
               <div class="container team-pro">
                 <h3 class="team-name">Микола Тарасов</h3>
                 <p class="team-prof">Marketing</p>
@@ -416,12 +555,58 @@
               </div>
             </li>
             <li class="team-elem">
-              <img
-                class="team-foto"
-                src="images/img-foto-4.jpg"
-                alt="UI Designer"
-                width="270"
-              />
+              <picture>
+                <source
+                  srcset="
+                    images/team/desktop/team-4-desktop.webp    1x,
+                    images/team/desktop/team-4-desktop@2x.webp 2x
+                  "
+                  media="(min-width:1200px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    images/team/desktop/team-4-desktop.jpg    1x,
+                    images/team/desktop/team-4-desktop@2x.jpg 2x
+                  "
+                  media="(min-width:1200px)"
+                />
+                <source
+                  srcset="
+                    images/team/tablet/team-4-tablet.webp    1x,
+                    images/team/tablet/team-4-tablet@2x.webp 2x
+                  "
+                  media="(min-width:768px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    images/team/tablet/team-4-tablet.jpg    1x,
+                    images/team/tablet/team-4-tablet@2x.jpg 2x
+                  "
+                  media="(min-width:768px)"
+                />
+                <source
+                  srcset="
+                    images/team/mobile/team-4-mobile.webp    1x,
+                    images/team/mobile/team-4-mobile@2x.webp 2x
+                  "
+                  media="(max-width:767px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    images/team/mobile/team-4-mobile.jpg    1x,
+                    images/team/mobile/team-4-mobile@2x.jpg 2x
+                  "
+                  media="(max-width:767px)"
+                />
+                <img
+                  class="team-foto"
+                  src="images/team/mobile/team-4-mobile.jpg"
+                  alt="UI Designer"
+                />
+              </picture>
               <div class="container team-pro">
                 <h3 class="team-name">Михайло Єрмаков</h3>
                 <p class="team-prof">UI Designer</p>
@@ -479,11 +664,11 @@
             </li>
           </ul>
         </div>
-      </section>-->
+      </section>
       <!--постійні клієнти-->
-      <!--<section class="section group">
-        <div class="container">
-          <h2 class="section-title">Постійні кліенти</h2>
+      <section class="section group">
+        <div class="container group-container">
+          <h2 class="section-group-title">Постійні кліенти</h2>
           <ul class="group-list list">
             <li class="group-list-set">
               <a href="" class="group-link link">
@@ -559,7 +744,7 @@
             </li>
           </ul>
         </div>
-      </section>-->
+      </section>
     </main>
     <!--секция ноги-->
     <!-- <footer class="footer">
@@ -677,7 +862,7 @@
       </div>
     </footer>-->
     <!--модальное окно-->
-    <!--<div class="backdrop is-hidden" data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-close-btn" data-modal-close>
           <svg class="modal-close-icon" height="18px" width="18px">
@@ -749,8 +934,8 @@
           <button type="submit" class="modal-form-submit">Відправити</button>
         </form>
       </div>
-    </div>-->
+    </div>
     <script src="./JS/menu.js" type="module"></script>
-    <!--<script src="./JS/modal.js" type="module"></script>-->
+    <script src="./JS/modal.js" type="module"></script>
   </body>
 </html>

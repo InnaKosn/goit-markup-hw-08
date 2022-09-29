@@ -1,8 +1,13 @@
-.section-title {
-    margin-bottom: 50px;
+.team-container{
+    padding-top:60px ;
+    padding-bottom:60px ;
+}
+.section-team-title {
+    //margin-bottom: 50px;
     text-align: center;
 
-    font-size: 36px;
+    //font-size: 36px;
+    font-size:28px ;
     line-height: 1.17;
     color: var(--secondary-color);
 }
@@ -11,15 +16,16 @@
     background: #f5f4fa;
 }
 
-.team-list {
-    display: flex;
-    justify-content: space-between;
-}
+//.team-list {
+ //   display: flex;
+  //  justify-content: space-between;
+//}
 
 .team-pro {
-    width: 270px;
+   // width: 270px;
     padding-top: 30px;
-    padding-bottom: 30px;
+    //padding-bottom: 30px;
+    padding-bottom:24px ;
     text-align: center;
 }
 
@@ -27,6 +33,7 @@
     margin-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
+    line-height:1.19 ;
     color: var(--secondary-color);
 }
 
@@ -70,6 +77,7 @@
 }
 
 .team-elem {
+    margin-top:30px ;
     background: #ffffff;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
         0px 2px 1px rgba(0, 0, 0, 0.2);
