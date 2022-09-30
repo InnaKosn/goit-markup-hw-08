@@ -72,13 +72,14 @@ span {
 }
 
 .container {
+  width: 100%;
   padding-left: 15px;
   padding-right: 15px;
 }
 
 @media screen and (min-width: 480px) {
   .container {
-    width: 480px;
+    width: 450px;
     margin-right: auto;
     margin-left: auto;
   }
@@ -86,6 +87,7 @@ span {
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
+    align-items: center;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -494,12 +496,6 @@ span {
   color: #ffffff;
 }
 
-.subs {
-  width: 570px;
-  display: flex;
-  flex-direction: row;
-}
-
 .subs-title {
   display: block;
   font-weight: 700;
@@ -554,17 +550,18 @@ span {
   margin-left: 10px;
 }
 
-.header-page-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
 .header-page {
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
+@media screen and (max-width: 767px) {
+  .header-page-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
 .logotyp {
   font-family: var(--secondary-font);
   font-style: normal;
@@ -619,23 +616,28 @@ span {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/hero-desktop@2x.jpg);
   }
 }
-.hero__title {
-  width: 360px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 30px;
-  color: var(--alternativ-color);
-  font-weight: 900;
-  font-size: 26px;
-  line-height: 1.61;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-}
-
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 767px) {
   .hero__title {
-    font-weight: 400;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--alternativ-color);
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.61;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+}
+@media screen and (max-width: 767px) {
+  .hero {
+    display: flex;
+    align-items: center;
+    max-width: 480px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 .examples__elem:not(:last-child) {

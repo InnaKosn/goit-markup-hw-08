@@ -1,14 +1,18 @@
+.header-page {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  //border-bottom: 1px solid #ececec;
+}
+
+@media screen and (max-width:767px) { 
 .header-page-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
+  }
 }
 
-.header-page {
-padding-top:10px ;
-padding-bottom: 10px;
-//border-bottom: 1px solid #ececec;
-}
+
 
 //.navigation {
   //  display: flex;
