@@ -22,7 +22,7 @@
 //}
 
 .team-pro {
-   // width: 270px;
+    width: 290px;
     padding-top: 30px;
     //padding-bottom: 30px;
     padding-bottom:24px ;
@@ -45,8 +45,10 @@
 
 .network-list {
     display: flex;
+    width: 206px;
     column-gap: 10px;
     justify-content: center;
+    margin-left:28px ;
 }
 
 .network-list-link {
