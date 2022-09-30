@@ -5,6 +5,25 @@ text-align: center;
   // margin-left: 93px;
    }
 }
+@media screen and (min-width:768px) {
+  .subs-emale{
+    display: block;
+    text-align: center;
+    margin-top:60px ;
+    width: 450px;
+  }
+  .subs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center ;
+    row-gap: 20px;
+  }
+  //.adresa{
+   // margin-top:60px ;
+   // margin-left:76px ;
+  //}
+}
+
 
 //.subs {
     //width: 570px;
@@ -52,6 +71,11 @@ text-align: center;
     width: 100%;
     max-width:450px ;
   }
+}
+@media screen and (min-width:768px) {
+.emale-form{
+  width:450px ;
+}
 }
 
 .subs-button {

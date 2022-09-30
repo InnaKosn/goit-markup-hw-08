@@ -40,6 +40,13 @@
     fill: var(--accent-color);
   }
 }
+
+@media screen and (min-width:768px) {
+  .group-link{
+    width:226px ;
+  }
+}
+
 .group-icon {
   fill: #afb1b8;
   transition: fill var(--transition-dur-and-func);

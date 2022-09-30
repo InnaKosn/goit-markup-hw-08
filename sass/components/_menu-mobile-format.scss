@@ -25,11 +25,25 @@
   transition: opacity var(--transition-dur-and-func),
     visibility var(--transition-dur-and-func);
 }
+
+@media screen and (min-width:768px) {
+ .mobile-format{
+  display:none ; 
+}
+}
+
 .mobile-format.is-open {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
 }
+
+@media screen and (min-width:768px) {
+  .mobile-format.is-open{
+    display: none;
+  }
+}
+
 .mobile-format__container {
   position: relative;
   width: 100%;

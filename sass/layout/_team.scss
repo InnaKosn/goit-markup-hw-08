@@ -15,9 +15,21 @@
 .team {
     background: #f5f4fa;
 }
+@media screen and (min-width:768px) {
+    .team-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
 
+    .team__elem {
+        display: block;
+        width:354 px;
+        height:536 px;
+    }
+}
 //.team-list {
- //   display: flex;
   //  justify-content: space-between;
 //}
 

@@ -3,11 +3,10 @@
     padding: 60px 0;
 }
 
-//.foot {
-    //display: flex;
-    //justify-content: space-between;
-    //align-items: baseline;
-//}
+@media screen and (min-width:768px) {
+
+  } 
+
 
 .adresa {
     //width: 231px;
@@ -56,3 +55,12 @@
     color: var(--accent-color);
   }
 }
+@media screen and (min-width:768px) {
+ .foot{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    flex-wrap: wrap;
+ }  
+}
+    

@@ -3,6 +3,12 @@
    // margin-left: 70px;
 }
 
+@media screen and(min-width:768px) {
+    .join{
+        margin-top: 0;
+    }
+}
+
 .join-list {
     display: flex;
     column-gap: 10px;
@@ -37,3 +43,11 @@
     text-transform: uppercase;
     color: #ffffff;
 }
+//@media screen and (min-width:768px) 
+  
+    
+        
+       
+    
+      
+   
