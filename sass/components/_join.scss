@@ -1,6 +1,5 @@
 .join {
     margin: 60px 0;
-   // margin-left: 70px;
 }
 
 @media screen and(min-width:768px) {
@@ -43,7 +42,13 @@
     text-transform: uppercase;
     color: #ffffff;
 }
-//@media screen and (min-width:768px) 
+@media screen and (min-width:1200px) {
+.join{
+    margin-left: 70px;
+    margin-right: 80px;
+    margin-bottom: 0;
+   }
+} 
   
     
         

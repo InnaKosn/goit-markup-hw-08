@@ -191,46 +191,94 @@
         </div>
       </section>
       <!--секция работаем работу  -->
-      <!--<section class="section worky">
+      <section class="section worky">
         <div class="container worky-container">
           <h2 class="section-title">Чим ми займаємося</h2>
           <ul class="worky-list list">
             <li class="worky-elem">
               <div class="worky-over">
-                <img
-                  class="worky-pic"
-                  src="./images/box-1-img.jpg"
-                  alt="печать на клаві"
-                  width="370"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      images/services/desktop-app.webp    1x,
+                      images/services/desktop-app@2x.webp 2x
+                    "
+                    media="(min-width:1200px)"
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="
+                      images/services/desktop/desktop-app.jpg    1x,
+                      images/services/desktop/desktop-app@2x.jpg 2x
+                    "
+                    media="(min-width:1200px)"
+                  />
+                  <img
+                    class="worky-pic"
+                    src="./images/box-1-img.jpg"
+                    alt="печать на клаві"
+                  />
+                </picture>
                 <p class="worky-text">ДЕСКТОПНІ ДОДАТКИ</p>
               </div>
             </li>
             <li class="worky-elem">
               <div class="worky-over">
-                <img
-                  class="worky-pic"
-                  src="./images/box-2-img.jpg"
-                  alt="смартфон та ноутбук"
-                  width="370"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      images/services/mobile-app.webp    1x,
+                      images/services/mobile-app@2x.webp 2x
+                    "
+                    media="(min-width:1200px)"
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="
+                      images/services/mobile-app.jpg    1x,
+                      images/services/mobile-app@2x.jpg 2x
+                    "
+                    media="(min-width:1200px)"
+                  />
+                  <img
+                    class="worky-pic"
+                    src="./images/box-2-img.jpg"
+                    alt="смартфон та ноутбук"
+                  />
+                </picture>
                 <p class="worky-text">МОБІЛЬНІ ДОДАТКИ</p>
               </div>
             </li>
             <li class="worky-elem">
               <div class="worky-over">
-                <img
-                  class="worky-pic"
-                  src="./images/box-3-img.jpg"
-                  alt="планшет та ноутбук"
-                  width="370"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      images/services/design.webp    1x,
+                      images/services/design@2x.webp 2x
+                    "
+                    media="(min-width:1200px)"
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="
+                      images/services/design.jpg    1x,
+                      images/services/design@2x.jpg 2x
+                    "
+                    media="(min-width:1200px)"
+                  />
+                  <img
+                    class="worky-pic"
+                    src="./images/box-3-img.jpg"
+                    alt="планшет та ноутбук"
+                  />
+                </picture>
                 <p class="worky-text">ДИЗАЙНЕРСЬКІ РІШЕННЯ</p>
               </div>
             </li>
           </ul>
         </div>
-      </section>-->
+      </section>
       <!--кто в команде-->
       <section class="section team">
         <div class="container team-container">

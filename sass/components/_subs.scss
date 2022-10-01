@@ -18,19 +18,7 @@ text-align: center;
     justify-content:center ;
     row-gap: 20px;
   }
-  //.adresa{
-   // margin-top:60px ;
-   // margin-left:76px ;
-  //}
 }
-
-
-//.subs {
-    //width: 570px;
-    //display: flex;
-    //flex-direction: row;
-
-//}
 
 .subs-title {
     display: block;
@@ -76,6 +64,20 @@ text-align: center;
 .emale-form{
   width:450px ;
 }
+}
+
+@media screen and (min-width:1200px) {
+   .subs {
+   width: 570px;
+   display: flex;
+   flex-wrap: nowrap;
+   }
+     .emale-form {
+       width: 358px;
+     }
+   .subs-emale {
+    margin-top: 0;
+   } 
 }
 
 .subs-button {

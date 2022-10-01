@@ -35,10 +35,16 @@
 }
 
 .contact {
-   //display: flex;
    display:inline-block;
    column-gap: 50px;
   align-items: center;
+}
+
+@media screen and (min-width:1200px) {
+.contact {
+    display: flex;
+    column-gap: 30px;
+  }
 }
 
 .logotyp {
@@ -57,6 +63,10 @@
 font-size: 26px;
 margin-right:93px ;
   }
+  //.header{
+   // padding-left:215px ;
+   // padding-right:215px ;
+  //}
 }
 
 

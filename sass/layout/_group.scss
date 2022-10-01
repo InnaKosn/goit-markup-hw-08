@@ -23,7 +23,6 @@
     align-items: center;
     justify-content: center;
     width: 210px;
-    //width: 170px;
     height: 92px;
     border: 1px solid #afb1b8;
     border-radius: 4px;
@@ -46,7 +45,15 @@
     width:226px ;
   }
 }
-
+@media screen and (min-width:1200px) {
+  .group-container {
+    padding-top: 79px;
+    padding-bottom: 94px;
+  }
+    .group-link{
+      width:170px ;
+    }
+}
 .group-icon {
   fill: #afb1b8;
   transition: fill var(--transition-dur-and-func);

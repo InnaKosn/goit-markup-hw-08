@@ -2,12 +2,7 @@
     background: #2f303a;
     padding: 60px 0;
 }
-
-@media screen and (min-width:768px) {
-
-  } 
-
-
+ 
 .adresa {
     //width: 231px;
     text-align: center;
@@ -58,9 +53,17 @@
 @media screen and (min-width:768px) {
  .foot{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: baseline;
     flex-wrap: wrap;
  }  
 }
-    
+  @media screen and (min-width:1200px) {
+    .footer{
+        padding:60px 0 ;
+    }
+    .foot{
+        justify-content:center;
+     flex-wrap: nowrap;   
+    }
+  }  
