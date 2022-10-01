@@ -75,6 +75,7 @@ span {
   width: 100%;
   padding-left: 15px;
   padding-right: 15px;
+  margin: 0 auto;
 }
 
 @media screen and (min-width: 320px) and (max-width: 479px) {
@@ -84,23 +85,17 @@ span {
 }
 @media screen and (min-width: 480px) {
   .container {
-    width: 480px;
+    width: 100%;
     margin-right: auto;
     margin-left: auto;
   }
 }
 @media screen and (min-width: 768px) {
   .container {
-    width: 768px;
     align-items: center;
   }
 }
 @media screen and (min-width: 1200px) {
-  .container {
-    width: 1200px;
-  }
-}
-@media screen and (max-width: 1600px) {
   .container {
     width: 100%;
   }
@@ -147,7 +142,7 @@ span {
   transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
-  width: 450px;
+  width: 320px;
   height: 609px;
   padding: 40px;
   background: #ffffff;
@@ -155,6 +150,11 @@ span {
   border-radius: 4px;
 }
 
+@media screen and (min-width: 480px) {
+  .modal {
+    width: 450px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .modal {
     width: 528 px;
@@ -634,7 +634,6 @@ span {
     display: block;
     text-align: center;
     margin-top: 60px;
-    width: 450px;
   }
   .subs {
     display: flex;
@@ -726,11 +725,12 @@ span {
   margin-left: 10px;
 }
 
-.present {
-  padding-top: 94px;
-  padding-bottom: 94px;
+@media screen and (min-width: 1200px) {
+  .present {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
-
 .header-page {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -747,7 +747,7 @@ span {
 }
 @media screen and (min-width: 320px) and (max-width: 479px) {
   .header-page-container {
-    column-gap: 128px;
+    column-gap: 135px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -795,7 +795,6 @@ span {
   height: 400px;
   padding: 118px 60px;
   text-align: center;
-  margin: 0 auto;
   background-color: #c4c4c4;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4));
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/hero-mobile.jpg);
@@ -831,7 +830,6 @@ span {
 }
 @media screen and (max-width: 767px) {
   .hero__title {
-    width: 100%;
     margin-left: auto;
     margin-right: auto;
     color: var(--alternativ-color);
@@ -842,14 +840,6 @@ span {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-  }
-  .hero {
-    display: flex;
-    align-items: center;
-    max-width: 480px;
-    height: 400px;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (min-width: 768px) {
@@ -866,11 +856,16 @@ span {
     text-transform: uppercase;
     color: var(--alternativ-color);
   }
+  .hero {
+    align-items: center;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 @media screen and (min-width: 1200px) {
   .hero {
     height: 600px;
-    max-width: 1600px;
   }
   .hero-container {
     height: 100%;
@@ -884,8 +879,7 @@ span {
   }
 }
 .examples {
-  display: flex;
-  align-items: baseline;
+  display: block;
 }
 
 .examples__elem:not(:last-child) {
@@ -895,6 +889,8 @@ span {
 .present-container {
   padding-top: 60px;
   padding-bottom: 60px;
+  align-items: baseline;
+  margin: auto;
 }
 
 @media screen and (min-width: 1200px) {
@@ -993,6 +989,7 @@ span {
 .team-container {
   padding-top: 60px;
   padding-bottom: 60px;
+  margin: auto;
 }
 
 .team {
@@ -1043,12 +1040,17 @@ span {
   }
 }
 .team-pro {
-  width: 270px;
+  width: 290px;
   padding-top: 30px;
   padding-bottom: 24px;
   text-align: center;
 }
 
+@media screen and (min-width: 1200px) {
+  .team-pro {
+    width: 270px;
+  }
+}
 .team-name {
   margin-bottom: 10px;
   font-weight: 500;
