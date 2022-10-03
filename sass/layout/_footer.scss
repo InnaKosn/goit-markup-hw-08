@@ -4,7 +4,6 @@
 }
  
 .adresa {
-    //width: 231px;
     text-align: center;
 }
 .join{
@@ -65,5 +64,8 @@
     .foot{
         justify-content:center;
      flex-wrap: nowrap;   
+    }
+    .adresa{
+        text-align: left;
     }
   }  
