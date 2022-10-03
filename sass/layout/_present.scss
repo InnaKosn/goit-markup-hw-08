@@ -5,13 +5,14 @@
 .examples__elem:not(:last-child) {
      margin-bottom: 30px;
 }
-//margin-right: 30px;
+
 .present-container{
     padding-top: 60px;
     padding-bottom: 60px;
     align-items: baseline;
     margin:auto ;
 }
+
 @media screen and (min-width:1200px){
  .present-container{
   padding-top: 0;
@@ -55,6 +56,9 @@
     display: block;
     width: 354px;
     height: 224px;
+  }
+  .examples-title{
+    text-align: left;
   }
 }
 

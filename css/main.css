@@ -937,6 +937,9 @@ span {
     width: 354px;
     height: 224px;
   }
+  .examples-title {
+    text-align: left;
+  }
 }
 @media screen and (min-width: 1200px) {
   .examples__elem {
@@ -1134,6 +1137,11 @@ span {
   fill: var(--accent-color);
 }
 
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .group-link {
+    width: 100%;
+  }
+}
 @media screen and (min-width: 768px) {
   .group-link {
     width: 226px;
